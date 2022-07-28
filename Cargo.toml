@@ -16,7 +16,7 @@ features = ["render", "bevy_winit", "wayland"]
 [dependencies.bevy_life]
 version = "0.4.0"
 default-features = false
-features = ["2D"]
+features = ["2D", "auto-coloring"]
 
 # Enable optimizations for dependencies (incl. Bevy), but not for our code:
 [profile.dev.package."*"]
