@@ -40,8 +40,8 @@ fn setup_map(mut commands: Commands) {
 
 fn spawn_map(commands: &mut Commands) {
     let mut rng = rand::thread_rng();
-    let (size_x, size_y) = (256, 256);
-    let sprite_size = 2.;
+    let (size_x, size_y) = (128, 128);
+    let sprite_size = 4.;
     let color = Color::rgba(0., 0., 0., 1.);
 
     commands
